@@ -6,6 +6,7 @@ const Section = ({ title, children }) => {
     <SectionEl>
       <Container>
         <Title>{title}</Title>
+        {}
         {children}
       </Container>
     </SectionEl>
